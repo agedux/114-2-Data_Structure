@@ -94,9 +94,9 @@ int main() {
     cout << endl;
 
     // postordertraversal outcome
-    // cout << "Postorder Traversal: ";
-    // tree.postorderTraversal(tree.root);
-    // cout << endl;
+    cout << "Postorder Traversal: ";
+    tree.postorderTraversal(tree.root);
+    cout << endl;
 
     cout << "Max left subtree value: ";
     cout << tree.findChildMax(tree.root->left) << endl; // 尋找root node 的左子樹最大值
